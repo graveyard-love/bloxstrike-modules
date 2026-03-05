@@ -1,0 +1,6 @@
+- Source: `workspace.Debris`
+- Filter:
+  - Instance type: `Part` or `BasePart`
+  - Name contains `"FireHitbox"`
+- Result:
+  - Part object representing Molotov hitbox

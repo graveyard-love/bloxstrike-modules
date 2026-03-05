@@ -1,0 +1,7 @@
+- Source: `Workspace.Debris`
+- Filter:
+  - Instance type: `Model`
+  - Has attribute `"Weapon"`
+  - Attribute `"CanPickup"` == `true`
+- Result:
+  - `Model:GetAttribute("Weapon")` returns the weapon identifier/name.
